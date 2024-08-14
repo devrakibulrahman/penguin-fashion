@@ -1,0 +1,73 @@
+/* ---------------- css variable ---------------- */
+:root{
+    /* ---------------- font family */
+    --montserrat: "Montserrat", sans-serif;
+    --roboto: "Roboto", sans-serif;
+    --bebas-neue: "Bebas Neue", sans-serif;
+
+    /* ---------------- font size */
+    --fs-16px: 1rem;
+    --fs-24px: 1.5rem;
+    --fs-25px: 1.589rem;
+    --fs-36px: 2.25rem;
+    --fs-48px: 3rem;
+    --fs-80px: 5rem;
+
+    /* ---------------- line height */
+    --lh-24px: 24px;
+    --lh-26px: 26px;
+    --lh-28px: 28px;
+    --lh-31px: 31px;
+    --lh-42px: 42px;
+    --lh-80px: 80px;
+
+    /* ---------------- color */
+    --white: #fff;
+    --money-banks: #A4BC46;
+    --very-blue: #363958;
+    --full-yellow: #FABE4C;
+    --black-lacquer: #3E3E3E;
+    --vanilla-shake: #FFFBF0;
+
+    /* ---------------- gradient color */
+    --gradient: linear-gradient(180.00deg, rgba(164, 188, 70), rgb(133, 100, 25) 100%);
+
+    /* ---------------- border radius */
+    --bor-ra-10px: 10px;
+    --bor-ra-20px: 20px;
+
+    /* ---------------- box shadow */
+    --box-shadow: 0, 10, 30, 0 rgba(0, 0, 0, 0.05);
+
+}
+
+/*? ---------------- responsive ---------------- */
+
+/* ----------------------- mobile device (max-width 576px) */
+@media screen and (max-width: 576px){
+    /* ---------------- reusable class */
+
+    /* ---------------- header */
+    /* ---------------- header */
+
+    /* ---------------- main */
+    /* ---------------- main */
+    
+    /* ---------------- footer */
+    /* ---------------- footer */
+}
+/* ----------------------- tablet device (min-width 576px) and (max-width 992px) */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    /* ---------------- reusable class */
+
+    /* ---------------- header */
+    /* ---------------- header */
+    
+    /* ---------------- main */
+    /* ---------------- main */
+    
+    /* ---------------- footer */
+    /* ---------------- footer */
+}
+
+/*? ---------------- responsive ---------------- */
