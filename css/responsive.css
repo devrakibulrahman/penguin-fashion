@@ -136,7 +136,8 @@
     /* ---------------- product about section */
     .product-about-container{
         flex-direction: column-reverse;
-        margin-top: 80px;
+        gap: 30px;
+        margin-top: 30px;
     }
 
     .product-about-container .pro-ab-content{
@@ -153,10 +154,41 @@
     .product-about-container .pro-ab-ill-bx{
         max-width: 400px;
         width: 100%;
-        height: 173px;
+        height: 200px;
+        background-color: #3E3E3E;
     }
     /* ---------------- product about section */
     /* ---------------- main */
+    
+    /* ---------------- footer */
+    .footer-content{
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .footer-content .brand-content{
+        margin-bottom: 25px;
+    }
+
+    .footer-content .footer-nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-content .footer-nav .footer-navbar .footer-tx,
+    .footer-content .footer-nav .social-media .footer-tx{
+        margin-bottom: 15px;
+    }
+
+    .footer-content .footer-nav .footer-navbar .footer-nav-items .footer-nav-list{
+        margin-top: 5px;
+    }
+
+    .footer-content .footer-nav .social-media .social-media-bx{
+        margin-top: 20px;
+    }
+    /* ---------------- footer */
 }
 
 /* ----------------------- tablet device (min-width 576px) and (max-width 992px) */
@@ -204,6 +236,13 @@
     /* ---------------- main */
     
     /* ---------------- footer */
+    .footer-content{
+        flex-direction: column;
+    }
+
+    .footer-content .brand-content{
+        margin-bottom: 25px;
+    }
     /* ---------------- footer */
 }
 
