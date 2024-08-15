@@ -43,24 +43,58 @@
 
 /*? ---------------- responsive ---------------- */
 
-/* ----------------------- mobile device (max-width 576px) */
-@media screen and (max-width: 576px){
+/* ----------------------- mobile device (max-width 676px) */
+@media screen and (max-width: 676px){
     /* ---------------- reusable class */
+    .container{
+        padding: 0 10px;
+    }
 
     /* ---------------- header */
-    /* ---------------- header */
+    .nav-container{
+        padding-top: 30px;
+    }
 
-    /* ---------------- main */
-    /* ---------------- main */
-    
-    /* ---------------- footer */
-    /* ---------------- footer */
+    .nav-container .logo{
+        width: 185px;
+    }
+
+    .nav-container .logo .logo-img{
+        width: 185px;
+    }
+
+    .nav-container .navbar{
+        display: none;
+    }
+
+    .nav-container .mobile-nav{
+        display: block;
+    }
+
+    /* ---------------- header */
 }
+
 /* ----------------------- tablet device (min-width 576px) and (max-width 992px) */
-@media screen and (min-width: 576px) and (max-width: 992px){
+@media screen and (min-width: 676px) and (max-width: 992px){
     /* ---------------- reusable class */
+    .container{
+        padding: 0 20px;
+    }
 
     /* ---------------- header */
+    .nav-container .logo{
+        width: 200px;
+    }
+
+    .nav-container .logo .logo-img{
+        width: 200px;
+    }
+
+    .nav-container .navbar .nav-items{
+        gap: 40px;
+    }
+
+
     /* ---------------- header */
     
     /* ---------------- main */

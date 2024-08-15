@@ -44,9 +44,7 @@
     --full-yellow: #FABE4C;
     --black-lacquer: #3E3E3E;
     --vanilla-shake: #FFFBF0;
-
-    /* ---------------- gradient color */
-    --gradient: linear-gradient(180.00deg, rgba(164, 188, 70), rgb(133, 100, 25) 100%);
+    --shisha-coal: #3C3C3C;
 
     /* ---------------- border radius */
     --bor-ra-10px: 10px;
@@ -69,7 +67,94 @@
     flex-direction: column;
 }
 
+.btn{
+    width: 140px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: linear-gradient(180.00deg, rgb(164, 188, 70),rgb(133, 160, 25) 100%);
+    border: none;
+    outline: none;
+    border-radius: var(--bor-ra-10px);
+    cursor: pointer;
+    font-family: var(--roboto);
+    font-size: var(--fs-16px);
+    font-weight: 400;
+    line-height: var(--lh-24px);
+    color: var(--white);
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.btn:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.btn .cart-icon .cart{
+    font-size: var(--fs-16px);
+}
+
 /* ---------------- header ---------------- */
+#header{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--vanilla-shake);
+}
+
+.nav-container{
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container .logo{
+    width: 291px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container .logo .logo-img{
+    width: 291px;
+}
+
+.nav-container .navbar .nav-items{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+}
+
+.nav-container .navbar .nav-items .nav-list{
+    font-family: var(--roboto);
+    font-size: var(--fs-16px);
+    font-weight: 500;
+    line-height: var(--lh-24px);
+}
+
+.nav-container .navbar .nav-items .nav-list .nav-link{
+    color: var(--shisha-coal);
+    transition: all 0.2s ease;
+}
+
+.nav-container .navbar .nav-items .nav-list .nav-link:hover{
+    color: var(--money-banks);
+}
+
+.nav-container .mobile-nav{
+    display: none;
+}
+
+.nav-container .mobile-nav .mobile-menu{
+    font-size: var(--fs-25px);
+    color: var(--shisha-coal);
+}
 /* ---------------- header ---------------- */
 
 /* ---------------- main ---------------- */
