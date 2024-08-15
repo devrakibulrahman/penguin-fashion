@@ -27,6 +27,7 @@
     --fs-25px: 1.589rem;
     --fs-36px: 2.25rem;
     --fs-48px: 3rem;
+    --fs-60ox: 3.75rem;
     --fs-80px: 5rem;
 
     /* ---------------- line height */
@@ -50,9 +51,6 @@
     --bor-ra-10px: 10px;
     --bor-ra-20px: 20px;
 
-    /* ---------------- box shadow */
-    --box-shadow: 0, 10, 30, 0 rgba(0, 0, 0, 0.05);
-
 }
 
 /* ---------------- reusable class ---------------- */
@@ -68,12 +66,12 @@
 }
 
 .btn{
-    width: 140px;
+    width: 160px;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
     background: linear-gradient(180.00deg, rgb(164, 188, 70),rgb(133, 160, 25) 100%);
     border: none;
     outline: none;
@@ -89,11 +87,11 @@
 }
 
 .btn:hover{
-    box-shadow: var(--box-shadow);
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.151);
 }
 
-.btn .cart-icon .cart{
-    font-size: var(--fs-16px);
+.btn .btn-icon .cart{
+    font-size: var(--fs-24px);
 }
 
 /* ---------------- header ---------------- */
@@ -155,6 +153,53 @@
     font-size: var(--fs-25px);
     color: var(--shisha-coal);
 }
+
+.home-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 110px;
+}
+
+.home-container .home-details .home-tx-content{
+    max-width: 450px;
+    width: 100%;
+}
+
+.home-container .home-details .home-tx-content .home-tx{
+    font-family: var(--bebas-neue);
+    font-size: var(--fs-80px);
+    font-weight: 500;
+    line-height: var(--lh-80px);
+    color: var(--full-yellow);
+    margin-bottom: 10px;
+}
+
+.home-container .home-details .home-tx-content .home-tx .color-tx{
+    color: var(--very-blue);
+}
+
+.home-container .home-details .home-tx-content .home-para{
+    font-family: var(--roboto);
+    font-size: var(--fs-16px);
+    font-weight: 400;
+    line-height: var(--lh-26px);
+    color: var(--shisha-coal);
+    margin-bottom: 24px;
+}
+
+.home-container .home-model{
+    max-width: 550px;
+    height: 550px;
+}
+
+.home-container .home-model .model-img{
+    width: 100%;
+}
+
+
 /* ---------------- header ---------------- */
 
 /* ---------------- main ---------------- */

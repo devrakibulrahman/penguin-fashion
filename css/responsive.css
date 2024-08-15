@@ -11,6 +11,7 @@
     --fs-25px: 1.589rem;
     --fs-36px: 2.25rem;
     --fs-48px: 3rem;
+    --fs-60px: 3.75rem;
     --fs-80px: 5rem;
 
     /* ---------------- line height */
@@ -19,6 +20,7 @@
     --lh-28px: 28px;
     --lh-31px: 31px;
     --lh-42px: 42px;
+    --lh-60px: 60px;
     --lh-80px: 80px;
 
     /* ---------------- color */
@@ -47,7 +49,11 @@
 @media screen and (max-width: 676px){
     /* ---------------- reusable class */
     .container{
-        padding: 0 10px;
+        padding: 0 20px;
+    }
+
+    .btn{
+        width: 170px;
     }
 
     /* ---------------- header */
@@ -71,16 +77,36 @@
         display: block;
     }
 
+    .home-container{
+        flex-direction: column;
+        margin-top: 52px;
+    }
+
+    .home-container .home-details{
+        width: 100%;
+    }
+
+    .home-container .home-details .home-tx-content{
+        max-width: 315px;
+        width: 100%;
+    }
+
+    .home-container .home-details .home-tx-content .home-tx{
+        font-size: var(--fs-60px);
+        line-height: var(--lh-60px);
+    }
+
+    .home-container .home-model{
+        max-width: 360px;
+        width: 100%;
+        height: 360px;
+        margin-top: 15px;
+    }
     /* ---------------- header */
 }
 
 /* ----------------------- tablet device (min-width 576px) and (max-width 992px) */
 @media screen and (min-width: 676px) and (max-width: 992px){
-    /* ---------------- reusable class */
-    .container{
-        padding: 0 20px;
-    }
-
     /* ---------------- header */
     .nav-container .logo{
         width: 200px;
@@ -94,7 +120,14 @@
         gap: 40px;
     }
 
+    .home-container{
+        flex-direction: column;
+        margin-top: 70px;
+    }
 
+    .home-container .home-details{
+        width: 100%;
+    }
     /* ---------------- header */
     
     /* ---------------- main */
